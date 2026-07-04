@@ -109,7 +109,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 A premium, portfolio-quality interactive UI is available in the [`/frontend`](./frontend) folder — a React + Tailwind + Framer Motion app where the trained model's scaler and regression coefficients run directly in the browser (no backend needed).
 
-**Live demo:** _(add your Vercel link here once deployed)_
+**Live demo:** https://student-performance-predictor-beta.vercel.app
 
 ```bash
 cd frontend
