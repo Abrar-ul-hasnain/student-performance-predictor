@@ -1,4 +1,3 @@
-```markdown
 # 🎓 Student Academic Performance Prediction
 
 A machine learning project that predicts student final grades and pass/fail outcomes using the UCI Student Performance Dataset (Portuguese language course).
@@ -10,6 +9,7 @@ A machine learning project that predicts student final grades and pass/fail outc
 ```
 ├── main.ipynb          # Main notebook with full ML pipeline
 ├── student-por.csv     # UCI Student Performance Dataset
+├── frontend/            # Premium React UI for the model
 └── README.md           # Project documentation
 ```
 
@@ -105,9 +105,21 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
+## 💻 Frontend
+
+A premium, portfolio-quality interactive UI is available in the [`/frontend`](./frontend) folder — a React + Tailwind + Framer Motion app where the trained model's scaler and regression coefficients run directly in the browser (no backend needed).
+
+**Live demo:** _(add your Vercel link here once deployed)_
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
 ## 👨‍💻 Author
 
 **Muhammad Abrar ul Hasnain**
 BS Artificial Intelligence — Air University Islamabad
-```
-
